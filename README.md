@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+##payload insert information
+{
+    "name": "Daniel",
+    "lastName": "Abreu",
+    "phone": ["829-789-8479", "829-559-7657"],
+    "address": ["km 25 aut duarte", "km 27 aut duarte"]
+}
+
+## run migration
+php artisan migrate
+php artisan migrate --seed
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
