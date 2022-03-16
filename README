@@ -1,0 +1,12 @@
+##payload insert information
+{
+    "name": "Daniel",
+    "lastName": "Abreu",
+    "phone": ["829-789-8479", "829-559-7657"],
+    "address": ["km 25 aut duarte", "km 27 aut duarte"]
+}
+
+## run migration
+php artisan migrate
+php artisan migrate --seed
+
